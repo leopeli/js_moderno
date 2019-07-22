@@ -62,20 +62,9 @@
     </table>
     <script src="app/models/Negociacao.js"></script>
     <script src="app/controllers/NegociacaoController.js"></script>
+    <script src="app/helpers/DateHelper.js"></script>
     <script>
         let negociacaoController = new NegociacaoController()
-
-        let numeros = [3,2,11,20,8,7];
-
-        let numerosMod = numeros.map( item => {
-            if(item % 2 != 0) {
-                return item * 2
-            } else {
-                return item
-            }
-        })
-        console.log(numeros)
-        console.log(numerosMod)
     </script>
 
 </body>
